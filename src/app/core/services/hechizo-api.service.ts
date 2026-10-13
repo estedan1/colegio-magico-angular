@@ -16,6 +16,7 @@ export class HechizoApiService {
   // PISTA: crea new HttpParams().set('tipo', tipo) y pásalo en las opciones del get: { params }.
   buscarPorTipo(tipo: string): Observable<Hechizo[]> {
     // Escribe tu código aquí y borra la línea de abajo:
+    
     const params = new HttpParams().set('tipo', tipo);
     return this.http.get<Hechizo[]>(this.url, { params });
   }
