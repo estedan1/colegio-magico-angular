@@ -11,7 +11,7 @@ export interface Hechizo {
   // Escribe aquí los demás campos:
   nombre: string;
   tipoMagia: string;
-  nivelPoder: number;
+  nivelPoder: number; 
 }
 
 // RETO 1.2: Llena la lista con los tipos de magia, en este orden: Fuego, Agua, Tierra, Aire, Oscura.
