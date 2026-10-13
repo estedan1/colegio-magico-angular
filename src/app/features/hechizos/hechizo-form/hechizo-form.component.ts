@@ -42,6 +42,7 @@ export class HechizoForm {
     //      - next  → this.router.navigate(['/hechizos'], { queryParams: { tipo: hechizo.tipoMagia } })
     //      - error → this.error.set(mensajeDeError(err))   (así se ve el mensaje del Manager)
     // Escribe tu código aquí:  
+    
     if (this.form.invalid) {
     this.form.markAllAsTouched();
     return;
