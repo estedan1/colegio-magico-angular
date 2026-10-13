@@ -31,6 +31,7 @@ export class HechizoBuscador {
     // RETO 5.1: Cada vez que cambie tipo(), si tiene valor, llama a this.buscar(tipo).
     // PISTA: effect(() => { ... }) se vuelve a ejecutar solo cuando cambia una señal que lee.
     // Escribe tu código aquí:
+    
       effect(() => {
         const t = this.tipo();
         if (t) {
