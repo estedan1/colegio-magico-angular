@@ -15,4 +15,4 @@ Responde a las siguientes preguntas como parte de tu evaluación final. Guarda u
     *Respuesta:* (que el componente se encarga de la interfaz y el servico hace parte como del funcionamineto interno)
 
 5.  **¿Por qué validamos en el formulario si el backend ya valida en el Manager?**
-    *Respuesta:* (para no tener que validarlo otra vez, y esto es por experiencia de usuario y por seguridad)
+    *Respuesta:* (para no tener que validarlo otra vez, y esto es por experiencia de usuario y por seguridad) 
