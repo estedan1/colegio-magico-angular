@@ -24,6 +24,7 @@ export const routes: Routes = [
   //   'hechizos/nuevo'  → HechizoForm      (features/hechizos/hechizo-form)
   // No olvides importar los componentes arriba.
   // ⚠️ Deben quedar ANTES del comodín '**': el Router usa la primera ruta que coincida.
+  
   {path: "hechizos", component: HechizoBuscador },
   {path: "hechizos/nuevo", component: HechizoForm },
   
